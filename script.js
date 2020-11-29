@@ -13,7 +13,7 @@ $.ajax({
             console.log(data)
             $.ajax({
                 type: "POST",
-                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId="+ appId2 + "&units=metric",
+                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId="+ appId + "&units=metric",
                 dataType: "json",
                 success: function (result, status, xhr) {
                     var table = $("<table class='table'><tr><th>Weather Description : </th></tr>");
@@ -29,7 +29,7 @@ $.ajax({
                     console.log(result)
                 },
                 error: function (xhr, status, error) {
-                 if  (xhr.status  == '404') { swal({ title: ":City Not Found", text: 'City Not Found', icon: "success", button: "Ok",});
+                 if  (xhr.status  == '404') { swal({ title: "City Not Found", text: 'City Not Found', icon: "success", button: "Ok",});
              }else{ 
                 swal({ title: "Error Occured", text: error, icon: "success", button: "Ok", });
                   } }
