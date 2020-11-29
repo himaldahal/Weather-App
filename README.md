@@ -1,4 +1,4 @@
-This is a weather app made using HTML, Jquery, and Bootstrap. This is ready to use the script but I recommend you to use your own API. I have subscribed to a free API.So it doesn't allow many more requests than a paid one. Although, You can access current weather data for any location including over 200,000 cities.
+This is a weather app made using HTML, Jquery, and Bootstrap. This is ready to use the script but I recommend you to use your own API. I have subscribed to a free API.So it doesn't allow many more requests than a paid one. Although, You can access current weather data for any location including over 200,000 cities.This project is purely build using Html,Jquery and bootstrap.
 
 You can get You own API from  https://openweathermap.org/price
 
