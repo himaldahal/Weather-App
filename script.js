@@ -2,7 +2,7 @@ const cityurl ='https://ipinfo.io/json'
 // change you api key here
 // making random coice between api so thar we can get more requests chance
 choice = Math.floor(Math.random() * 2);
-if (choice == '0') {
+if (choice == 0) {
     let appId = 'aca790619affaacbaaa6b8c7923450f7';
     console.log('Choice : 0')
 }else{
