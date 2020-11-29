@@ -1,13 +1,9 @@
 const cityurl ='https://ipinfo.io/json';
 // change you api key here
-choice = Math.floor(Math.random() * 2);
-if (choice == 0) {
-    const appId = 'aca790619affaacbaa6b8c7923450f7';
-    console.log('Choice : 0');
-}else{
- const appId = '71f6779186cc32448b4c412eea65b982';
- console.log('Choice : 1');
-};
+
+let appId = 'aca790619affaacbaa6b8c7923450f7';
+let appId2 = '71f6779186cc32448b4c412eea65b982';
+
 $.ajax({
         type: "POST",
         url: "https://api.ip.sb/geoip",
@@ -17,7 +13,7 @@ $.ajax({
             console.log(data)
             $.ajax({
                 type: "POST",
-                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appid="+ appId + "&units=metric",
+                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId2="+ appId + "&units=metric",
                 dataType: "json",
                 success: function (result, status, xhr) {
                     var table = $("<table class='table'><tr><th>Weather Description : </th></tr>");
