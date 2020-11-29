@@ -1,5 +1,5 @@
 ## Weather APP 
-## Preview at: https://himalhack.github.io/Weather-App/
+## Preview at: https://himaldahal.github.io/Weather-App/
 
 
 ## Things To Be Changed
