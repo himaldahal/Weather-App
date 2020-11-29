@@ -13,7 +13,7 @@ $.ajax({
             console.log(data)
             $.ajax({
                 type: "POST",
-                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId2="+ appId + "&units=metric",
+                url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId="+ appId2 + "&units=metric",
                 dataType: "json",
                 success: function (result, status, xhr) {
                     var table = $("<table class='table'><tr><th>Weather Description : </th></tr>");
