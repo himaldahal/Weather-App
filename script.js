@@ -1,7 +1,7 @@
 const cityurl ='https://ipinfo.io/json';
 // change you api key here
 
-let appId = 'aca790619affaacbaa6b8c7923450f7';
+let appId = 'aca790619affaacbaaa6b8c7923450f7';
 
 
 $.ajax({
