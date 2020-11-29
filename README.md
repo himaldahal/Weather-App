@@ -2,7 +2,7 @@
 
 
 ## Things To Be Changed
-This is a weather app made using HTML, Jquery, and Bootstrap.
+This is a weather app made using HTML, Jquery, and Bootstrap.You can Get A preview of the project at https://himalhack.github.io/Weather-App/
 
 Please Update The appId with your api token.You can get your api key from https://openweathermap.org/price in script.js File.
 ```markdown
