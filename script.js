@@ -1,15 +1,15 @@
-const cityurl ='https://ipinfo.io/json'
+const cityurl ='https://ipinfo.io/json';
 // change you api key here
-// making random coice between api so thar we can get more requests chance
 choice = Math.floor(Math.random() * 2);
 if (choice == 0) {
-    let appId = 'aca790619affaacbaaa6b8c7923450f7';
-    console.log('Choice : 0')
+    let appId = 'aca790619affaacbaa6b8c7923450f7';
+    console.log('Choice : 0');
 }else{
  let appId = '71f6779186cc32448b4c412eea65b982';
- console.log('Choice : 1')
-}
+ console.log('Choice : 1');
+};
 
+console.log(appId)
 $.ajax({
         type: "POST",
         url: "https://api.ip.sb/geoip",
