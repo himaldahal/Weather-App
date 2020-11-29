@@ -2,10 +2,10 @@ const cityurl ='https://ipinfo.io/json';
 // change you api key here
 choice = Math.floor(Math.random() * 2);
 if (choice == 0) {
-    let appId = 'aca790619affaacbaa6b8c7923450f7';
+    const appId = 'aca790619affaacbaa6b8c7923450f7';
     console.log('Choice : 0');
 }else{
- let appId = '71f6779186cc32448b4c412eea65b982';
+ const appId = '71f6779186cc32448b4c412eea65b982';
  console.log('Choice : 1');
 };
 
