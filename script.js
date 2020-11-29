@@ -8,8 +8,6 @@ if (choice == 0) {
  const appId = '71f6779186cc32448b4c412eea65b982';
  console.log('Choice : 1');
 };
-
-console.log(appId)
 $.ajax({
         type: "POST",
         url: "https://api.ip.sb/geoip",
