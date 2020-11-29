@@ -1,8 +1,13 @@
    
 const cityurl ='https://ipinfo.io/json'
 // change you api key here
-let appId = 'aca790619affaacbaaa6b8c7923450f7';
-
+// making random coice 
+choice = Math.floor(Math.random() * 2);
+if (choice == '0') {
+    let appId = 'aca790619affaacbaaa6b8c7923450f7';
+}else{
+ let appId = '71f6779186cc32448b4c412eea65b982';
+}
 
 $.ajax({
         type: "POST",
