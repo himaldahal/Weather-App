@@ -16,7 +16,7 @@ $.ajax({
                 url: "https://api.openweathermap.org/data/2.5/weather?q=" + country + "&appId="+ appId + "&units=metric",
                 dataType: "json",
                 success: function (result, status, xhr) {
-                    var table = $("<table class='table'><tr><th>Weather Description :>" + result["name"] + " </th></tr>");
+                    var table = $("<table class='table'><tr><th>Weather Description : " + result["name"] + " </th></tr>");
                     table.append("<tr><td>City:</td><td>" + result["name"] + "</td></tr>");
                     table.append("<tr><td>Country:</td><td>" + result["sys"]["country"] + "</td></tr>");
                     table.append("<tr><td>Current Temperature:</td><td>" + result["main"]["temp"] + "°C</td></tr>");
