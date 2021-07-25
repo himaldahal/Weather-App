@@ -7,7 +7,7 @@ This is a weather app made using HTML, Jquery, and Bootstrap.You can Get A previ
 
 Please Update The appId with your api token.You can get your api key from https://openweathermap.org/price in script.js File.
 ```markdown
-let appId = 'aca790619affaacbaaa6b8c7923450f7'; 
+let appId = 'Your API Key'; 
 ```
 
 ### About The Project
