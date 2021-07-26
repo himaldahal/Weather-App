@@ -15,7 +15,7 @@
 <div class="container-fluid">                                  
     <div class="form-group mt-4">
       <input type="text" class="cols-sm-12 form-control" id="cityName"  placeholder="Enter City/Country Name" required>
-      <button class='btn btn-info mt-2 text-center' id="submit"> Search</button><input type="color" class="form-control form-control-color" id="cinp" value="#563d7c" title="Choose your col-md-2 ">
+      <button class='btn btn-info mt-2 text-center' id="submit"> Search</button><input type="color" class="form-control col-md-2 form-control-color" id="color" value="#563d7c" title="Choose your Color ">
 
     </div>
 
@@ -44,8 +44,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-6SWPWSD8L7');
-</script>
+  gtag('config', 'G-6SWPWSD8L7');                    
+ let colorInput = document.getElementById('color');
+let colorValue = colorInput.value;
+
+colorInput.addEventListener('input', () =>{
+   $(this).css({backgroundColor: colorInput.value});
+});
+
+
+   </script> 
   </body>
 
 </html>
